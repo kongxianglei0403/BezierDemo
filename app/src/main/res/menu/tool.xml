@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+            android:id="@+id/basic"
+            android:title="基础"
+            app:showAsAction="always"
+            android:visible="true"/>
+
+    <item
+            android:id="@+id/advance"
+            android:title="进阶"
+            app:showAsAction="always"
+            android:visible="true"/>
+    <item
+            android:id="@+id/high"
+            android:title="高级"
+            app:showAsAction="always"
+            android:visible="true"/>
+</menu>
